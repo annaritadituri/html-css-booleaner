@@ -53,11 +53,59 @@ Sezione immagini
 }
 
 .images img {
-    width: 900px;
+    width: 45%;
     height: 700px;
     object-fit: cover;
 }
 
 .images p {
     font-size: 20px;
+}
+
+/*
+Sezione testo
+*/
+.paragraph {
+    margin-left: 10px;
+}
+
+.paragraph p {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+.paragraph span {
+    background-color: rgb(253, 254, 61);
+}
+
+.paragraph ul {
+    margin-top: 40px;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.odd-rows {
+    background-color: rgb(161, 225, 239);
+}
+
+thead {
+    background-color: rgb(0, 160, 221);
+    color: white;
+}
+
+th, td {
+    font-size: 20px;
+    border: 0;
+    text-align: left;
+    width: 20%;
+}
+
+.last-column {
+    width: 60%;
 }
