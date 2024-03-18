@@ -109,3 +109,35 @@ th, td {
 .last-column {
     width: 60%;
 }
+
+/*
+Sezione articoli
+*/
+
+.other-articles {
+    margin-left: 10px;
+}
+
+.other-articles h2 {
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.other-articles div {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    width: 300px;
+    height: 250px;
+    margin-bottom: 15px;
+    padding-top: 12px;
+    padding-left: 12px;
+}
+
+#monitor {
+    background-image: url("../img/monitor.jpg");
+}
+
+#graph {
+    background-image: url("../img/graph.jpg");
+}
