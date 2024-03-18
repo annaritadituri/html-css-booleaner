@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+header {
+    height: 170px;
+    background-color: rgb(59, 151, 250);
+    background-image: url('../img/pattern.png');
+}
+
+header img {
+    margin-top: 50px;
+    height: 100px;
+    margin-left: 10px;
+}
+
+/*
+Sezione titolo
+*/
+
+.title {
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+.title span {
+    color: rgb(0, 154, 219);
+}
+
+.title p {
+    color: gray;
+    font-size: 35px;
+}
+
+#subtitle {
+    font-size: 20px;
+}
+
+/*
+Sezione immagini
+*/
+
+.images {
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.images img {
+    width: 45%;
+    height: 700px;
+    object-fit: cover;
+}
+
+.images p {
+    font-size: 20px;
+}
+
+/*
+Sezione testo
+*/
+.paragraph {
+    margin-left: 10px;
+}
+
+.paragraph p {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+.paragraph span {
+    background-color: rgb(253, 254, 61);
+}
+
+.paragraph ul {
+    margin-top: 40px;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.odd-rows {
+    background-color: rgb(161, 225, 239);
+}
+
+thead {
+    background-color: rgb(0, 160, 221);
+    color: white;
+}
+
+th, td {
+    font-size: 20px;
+    border: 0;
+    text-align: left;
+    width: 20%;
+}
+
+.last-column {
+    width: 60%;
+}
+
+/*
+Sezione articoli
+*/
+
+.other-articles {
+    margin-left: 10px;
+}
+
+.other-articles h2 {
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.other-articles div {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    width: 300px;
+    height: 250px;
+    margin-bottom: 15px;
+    padding-top: 12px;
+    padding-left: 12px;
+}
+
+#monitor {
+    background-image: url("../img/monitor.jpg");
+}
+
+#graph {
+    background-image: url("../img/graph.jpg");
+}
