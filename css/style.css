@@ -42,3 +42,22 @@ h1 {
 #subtitle {
     font-size: 20px;
 }
+
+/*
+Sezione immagini
+*/
+
+.images {
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.images img {
+    width: 900px;
+    height: 700px;
+    object-fit: cover;
+}
+
+.images p {
+    font-size: 20px;
+}
